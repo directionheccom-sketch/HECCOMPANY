@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HEC COMPANY | High Engineering & Construction</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">HEC <span>COMPANY</span></div>
+        <div class="menu-container">
+            <ul class="nav-links">
+                <li><a href="#home" data-key="nav_home">Accueil</a></li>
+                <li><a href="#about" data-key="nav_about">À Propos</a></li>
+                <li><a href="#services" data-key="nav_services">Services</a></li>
+                <li><a href="#hseq" data-key="nav_hseq">HSEQ</a></li>
+                <li><a href="#contact" data-key="nav_contact">Contact</a></li>
+            </ul>
+            <select id="langSwitcher">
+                <option value="fr">FR</option>
+                <option value="en">EN</option>
+                <option value="ar">AR</option>
+                <option value="cn">中文</option>
+                <option value="it">IT</option>
+            </select>
+        </div>
+    </nav>
+
+    <header id="home" class="hero">
+        <div class="hero-content reveal">
+            <h1 data-key="hero_title">HIGH ENGINEERING AND CONSTRUCTION</h1>
+            <p data-key="hero_sub">Expertise industrielle de 30 KV à 225 KV.</p>
+            <a href="#contact" class="btn" data-key="btn_contact">Nos Projets</a>
+        </div>
+    </header>
+
+    <section id="about" class="section reveal">
+        <h2 data-key="nav_about">À Propos</h2>
+        <p data-key="about_text">Créée en 2018, HEC COMPANY est spécialisée dans les travaux électriques industriels, la maintenance et la construction de centrales électriques.</p>
+    </section>
+
+    <section id="services" class="section reveal grey-bg">
+        <h2 data-key="nav_services">Nos Services</h2>
+        <div class="services-grid">
+            <div class="card">
+                <i class="fas fa-bolt"></i>
+                <h3 data-key="serv_1_title">Électricité Industrielle</h3>
+                <p data-key="serv_1_desc">Maintenance HT/BT et réparation de transformateurs.</p>
+            </div>
+            <div class="card">
+                <i class="fas fa-tools"></i>
+                <h3 data-key="serv_2_title">Maintenance</h3>
+                <p data-key="serv_2_desc">Entretien de postes et lignes électriques.</p>
+            </div>
+        </div>
+    </section>
+
+    <script src="translations.js"></script>
+    <script src="script.js"></script>
+<section id="references" class="section reveal">
+        <h2 data-key="ref_title">Nos Références</h2>
+        <div class="references-list">
+            <div class="ref-item">
+                <i class="fas fa-check-circle"></i>
+                <p data-key="ref_omv">Entretien de 87 panneaux électriques - OMV</p>
+            </div>
+            <div class="ref-item">
+                <i class="fas fa-check-circle"></i>
+                <p data-key="ref_steg">Mise en service - STEG EL BORMA</p>
+            </div>
+        </div>
+    </section>
+
+<section id="hseq" class="section dark-bg reveal">
+        <h2 data-key="nav_hseq" style="color:var(--accent)">HSEQ</h2>
+        <p data-key="hseq_desc" style="color:white; max-width: 800px; margin: 0 auto;"></p>
+        <div class="hseq-icons">
+            <span><i class="fas fa-hard-hat"></i><br>Sécurité</span>
+            <span><i class="fas fa-leaf"></i><br>Environnement</span>
+            <span><i class="fas fa-medkit"></i><br>Santé</span>
+        </div>
+    </section>
+</body>
+</html>
